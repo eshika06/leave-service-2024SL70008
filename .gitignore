@@ -1,14 +1,10 @@
-# Maven build output
+cat > .gitignore << 'EOF'
 target/
-
-# Java compiled files
 *.class
-
-# IDE files
+*.log
 .idea/
 .vscode/
 *.iml
-
-# Operating system files
-.DS_Store
-Thumbs.db
+.classpath
+.project
+.settings/
